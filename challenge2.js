@@ -29,6 +29,8 @@ function isOdd(n) {
     return false;
   }
 }
+console.log(isOdd(9));
+console.log(isOdd(4));
 
 /**
  * oddsSmallerThan(n):
@@ -47,7 +49,8 @@ function oddsSmallerThan(n) {
     return (n - 1) / 2;
   }
 }
-
+console.log(oddsSmallerThan(7));
+console.log(oddsSmallerThan(15));
 /**
  * squareOrDouble(n):
  * - receives a number n
@@ -66,3 +69,5 @@ function squareOrDouble(n) {
     return n * n;
   }
 }
+console.log(squareOrDouble(16));
+console.log(squareOrDouble(9));
